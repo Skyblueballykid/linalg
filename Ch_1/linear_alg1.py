@@ -73,4 +73,28 @@ If h = 2, the equation is undefined, so h != 2
 # Question 5
 # Multiple Choice
 
+# Question 6
+# Multiple Choice
+
+
+# Question 8
+'''
+Find the general solution of this system:
+[1 0 -7 0 -3 | 4]
+[0 1 5 -1 0  | 6]
+[0 0 0 0 1   | 0]
+[0 0 0 0 0   | 0]
+
+First, add 3*r3 to r1, resulting in reduced row echelon form:
+[1 0 -7 0 0 | 4]
+[0 1 5 -1 0 | 6]
+[0 0 0 0 0  | 1]
+[0 0 0 0 0  | 0]
+
+# Write the system of equations:
+x1 - 7x3  = 4
+  x2 + 5x3 -x4 = 6
+x5 = 0
+0 = 0
+
 
