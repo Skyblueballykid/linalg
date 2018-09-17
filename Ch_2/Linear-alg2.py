@@ -95,6 +95,16 @@ x = x3[-5, 3, 1]
 
 
 # Question 9
+# Part a
+# Avh = A(w - p)
+# Part b
+# A(u + v) = Au + Av
+# Part c
+# Avh = Aw - Ap
+# Part d
+# Avh = b - b
+#Part e
+# Avh = 0
 
 
 # Question 10
@@ -109,3 +119,43 @@ x = x3[-5, 3, 1]
 '''
 With three pivot​ positions, A has a pivot position in each of its three​ rows, and​ therefore, for each b in set of real numbers R cubed​, the equation Axequalsb has a solution.'''
 
+
+# Question 11
+# The vector equation has only the trivial solution, so the 
+# vectors are linearly independent.
+
+
+# Question 12
+# Find the value for which the vectors are linearly dependent
+'''
+[ 2 6 -3]
+[-2 -8 3]
+[ 6 17 h]
+
+Add row 1 to row 2:
+[ 2 6 -3]
+[ 0 -2 0]
+[ 6 17 h]
+
+Add -3 x row 1 to row 3:
+[ 2 6 -3]
+[ 0 -2 0]
+[ 0 -1 h+9]
+
+Add -0.5 x row 2 to row 3:
+[ 2 6 -3]
+[ 0 -2 0]
+[0 0 h+9]
+
+x3 = -9
+'''
+
+# Question 13
+'''
+If A is an m times n ​matrix, then the columns of A are linearly independent if and only if A has n pivot columns.
+
+The columns of a matrix A are linearly independent if and only if Axequals0 has no free​ variables, meaning every variable is a basic​ variable, that​ is, if and only if every column of A is a pivot column
+'''
+
+# Question 14
+# Multiple Choice
