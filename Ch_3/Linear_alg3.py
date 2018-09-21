@@ -1,24 +1,24 @@
 # Question 1
 '''
 	  [1]
-T(u) =    [2]
+T(u) =[2]
 	 [-3]
 
 	 [k/4]
-T(v)=    [c/4]
+T(v)=[c/4]
 	 [a/4]
 '''
 
 # Question 2
 '''
 	[-8]
-v1 =    [-9]
+v1 =[-9]
 
 	[-1]
-v2 =     [4]
+v2 = [4]
 
 	[-8 -1]
-A =     [-9  4]
+A = [-9  4]
 
 '''
 # Question 3
@@ -56,7 +56,7 @@ Assume that T is a linear transformation. Find the standard matrix of T.
 
 	[6, -7]
 	[1,  4]
-A =     [6,  0]
+A = [6,  0]
 	[1,  0]
 
 '''
@@ -70,7 +70,7 @@ Assume that T is a linear transformation. Find the standard matrix of T.
 ​T: set of real numbers R squaredright arrowset of real numbers R squared​, first performs a horizontal shear that transforms Bold e 2 into Bold e 2 plus 17 Bold e 1 ​(leaving Bold e 1 ​unchanged) and then reflects points through the line x 2 equals negative x 1.
 
 	 [0 -1]
-A =    [-1 -17]
+A =[-1 -17]
 
 '''
 
@@ -101,3 +101,19 @@ e. The standard matrix of a horizontal shear transformation from set of real num
 False. The standard matrix has the form left bracket Start 2 By 2 Matrix 1st Row 1st Column 1 2nd Column k 2nd Row 1st Column 0 2nd Column 1 EndMatrix right bracket .
 
 '''
+
+# Question 12
+'''
+Determine if the specified linear transformation is ​(a​) ​one-to-one and ​(b​) onto. Justify each answer.
+
+a.
+T is not​ one-to-one because the columns of the standard matrix A are linearly dependent.
+
+b. 
+T is onto because the columns of the standard matrix A span set of real numbers R squared.
+'''
+
+# Question 13
+# The transformation T is not​ one-to-one because the equation Upper T left #parenthesis Bold x right parenthesis equals Bold 0 has a nontrivial solution. 
+
+# Question 14
