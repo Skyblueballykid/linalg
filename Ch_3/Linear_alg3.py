@@ -1,24 +1,24 @@
 # Question 1
 '''
 	  [1]
-T(u) =[2]
+T(u) =    [2]
 	 [-3]
 
 	 [k/4]
-T(v)=[c/4]
+T(v)=    [c/4]
 	 [a/4]
 '''
 
 # Question 2
 '''
 	[-8]
-v1 =[-9]
+v1 =    [-9]
 
 	[-1]
-v2 = [4]
+v2 =     [4]
 
 	[-8 -1]
-A = [-9  4]
+A =     [-9  4]
 
 '''
 # Question 3
@@ -56,7 +56,7 @@ Assume that T is a linear transformation. Find the standard matrix of T.
 
 	[6, -7]
 	[1,  4]
-A = [6,  0]
+A =     [6,  0]
 	[1,  0]
 
 '''
@@ -70,7 +70,7 @@ Assume that T is a linear transformation. Find the standard matrix of T.
 ​T: set of real numbers R squaredright arrowset of real numbers R squared​, first performs a horizontal shear that transforms Bold e 2 into Bold e 2 plus 17 Bold e 1 ​(leaving Bold e 1 ​unchanged) and then reflects points through the line x 2 equals negative x 1.
 
 	 [0 -1]
-A =[-1 -17]
+A =    [-1 -17]
 
 '''
 
