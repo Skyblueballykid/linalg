@@ -1,3 +1,11 @@
+import numpy as np
+import scipy
+import sympy
+from numpy import linalg as lg
+from numpy.linalg import solve
+from numpy.linalg import eig
+from scipy.integrate import quad
+
 # Question 1
 '''
 	  [1]
@@ -10,6 +18,18 @@ T(v)=[c/4]
 '''
 
 # Question 2
+a1 = np.matrix([[1, -4, 3], [0, 1, -2], [2, -9, 6]])
+b1 = np.matrix([[-6, -5, -5]]).T
+c1 = np.column_stack([a1, b1])
+print(c1)
+
+d1 = sympy.Matrix(c1).rref()
+print(d1) # Correct
+
+# Is the vector x found in the previous step​ unique?
+# Yes, because there are no free variables in the system of equations.
+
+# Question 3
 '''
 	[-8]
 v1 =[-9]
@@ -21,7 +41,6 @@ v2 = [4]
 A = [-9  4]
 
 '''
-# Question 3
 
 
 
@@ -62,7 +81,7 @@ A = [6,  0]
 '''
 
 # Question 6
-
+# Trig question
 
 # Question 7
 '''
@@ -81,6 +100,10 @@ A =[-1 -17]
 # Fill in the missing entries for the matrix
 
 # Question 10
+a2 = np.matrix([[1, 1, 2],[2, 6, -16]])
+print(a2)
+b2 = sympy.Matrix(a2).rref()
+print(b2) # Correct
 
 
 # Question 11
@@ -117,3 +140,7 @@ T is onto because the columns of the standard matrix A span set of real numbers 
 # The transformation T is not​ one-to-one because the equation Upper T left #parenthesis Bold x right parenthesis equals Bold 0 has a nontrivial solution. 
 
 # Question 14
+a3 = np.matrix([[110, 120, 350], [4, 2, 8], [20, 18, 56], [2, 5, 12]])
+print(a3)
+b3 = sympy.Matrix(a3).rref()
+print(b3) # Correct
