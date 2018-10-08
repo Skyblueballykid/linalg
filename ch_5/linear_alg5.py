@@ -81,10 +81,70 @@ print(det4)
 # formula
 
 # Question 12
+mat = np.array([[1,1,0], [3, 0, 5], [0, 1, -5]])
+print(mat)
+det8 = np.linalg.det(mat)
+print(det8)
 
+#Cramer's Rule
+# Find A1b by replacing the first column with column b
+mat2 = np.array([[2,1,0], [0, 0, 5], [3, 1, -5]])
+print(mat2)
+det9 = np.linalg.det(mat2)
+print(det9)
+print(det9/det8)
+
+#Find A2b by replacing the second column with b
+mat3 = np.array([[1, 2, 0], [3, 0, 5], [0, 3, -5]])
+print(mat3)
+det10 = np.linalg.det(mat3)
+print(det10)
+print(det10/det8)
+
+#Find A3b by replacing the third column with b
+mat4 = np.array([[1, 1, 2], [3, 0, 0], [0, 1, 3]])
+print(mat4)
+det11 = np.linalg.det(mat4)
+print(det11)
+print(det11/det8)
+
+# Answers above are correct, but try again because I misread the print output
+
+matr = np.array([[1,1,0], [5, 0, 4], [0, 1, -4]])
+print(matr)
+deter = np.linalg.det(matr)
+print(deter)
+
+# Find A1b by replacing first column with b
+matr1 = np.array([[5, 1, 0], [0, 0, 4], [6, 1, -4]])
+print(matr1)
+deter1 = np.linalg.det(matr1)
+print(deter1/deter)
+
+# Find A2b by replacing second column with b
+matr2 = np.array([[1, 5, 0], [5, 0, 4], [0, 6, -4]])
+print(matr2)
+deter2 = np.linalg.det(matr2)
+print(deter2/deter)
+
+# Find A3b by replacing third column with b
+matr3 = np.array([[1, 1, 5], [5, 0, 0], [0, 1, 6]])
+print(matr3)
+deter3 = np.linalg.det(matr3)
+print(deter3/deter)
 
 # Question 13
+# Compute the adjugate of the given matrix
+matri = np.matrix([[2, 5, 4], [1, 0, 1], [3, 2, 2]])
+print(matri)
+# Hermitian transpose (not correct)
+print(matri.getH())
+# Det of matrix
+determ = np.linalg.det(matri)
+print(determ)
 
+adj_matr = np.array([[-2, -2, 5], [1, -8, 2], [2, 11, -5]])
+print(adj_matr * 1/determ) # Correct
 
 # Question 14
 m6 = np.array([[3, 7], [6, 2]])
